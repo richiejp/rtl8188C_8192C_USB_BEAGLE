@@ -168,7 +168,7 @@ int rtw_mc2u_disable = 0;
 int rtw_mac_phy_mode = 0; //0:by efuse, 1:smsp, 2:dmdp, 3:dmsp.
 
 #ifdef CONFIG_80211D
-int rtw_80211d = 0;
+int rtw_80211d = 1;
 #endif
 
 char* ifname = "wlan%d";
